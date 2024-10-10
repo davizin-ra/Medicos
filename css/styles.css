@@ -11110,7 +11110,37 @@ footer.footer .social-link:hover {
 }
 
 .Sobre{
-  padding-top: 7.5rem;
-  padding-bottom: 7.5rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
   background-color: #babbbc;
+}
+
+.Sobre h2{
+  font-size: 300%;
+  margin-bottom: 3%;
+}
+
+.Sos{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 100px;
+}
+
+.Sos h1{
+
+  font-size: 600%;
+  text-align: center;
+  padding-bottom: 5%;
+
+}
+
+.Sos a{
+
+  text-align: center;
+  width: 50%;
+  margin-left: 25%;
+  margin-top: 5%;
+  margin-bottom: 3%;
+
 }
