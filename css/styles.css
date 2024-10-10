@@ -11112,13 +11112,14 @@ footer.footer .social-link:hover {
 .Sobre{
   padding-top: 5rem;
   padding-bottom: 5rem;
-  background-color: #babbbc;
+  background-color: #e4f2f7;
 }
 
 .Sobre h2{
   font-size: 300%;
   margin-bottom: 3%;
 }
+
 
 .Sos{
   display: flex;
