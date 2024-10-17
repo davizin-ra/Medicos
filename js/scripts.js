@@ -78,3 +78,27 @@ function fadeIn(el, display) {
         }
     })();
 };
+
+document.getElementById("inputBirthDate").addEventListener("change", checkAge);
+
+function checkAge() {
+    const birthDateInput = document.getElementById("inputBirthDate");
+    const additionalFields = document.getElementById("additionalFields");
+
+    if (!birthDateInput.value) {
+        additionalFields.classList.add("hidden");
+        return; // Se não houver data, não faz nada
+    }
+
+    const birthDate = new Date(birthDateInput.value);
+    const today = new Date();
+    const age = today.getFullYear() - birthDate.getFullYear();
+    const m = today.getMonth() - birthDate.getMonth();
+
+    // Verifica se é menor de idade
+    if (age < 18 || (age === 18 && m < 0)) {
+        additionalFields.classList.remove("hidden"); // Mostra campos adicionais
+    } else {
+        additionalFields.classList.add("hidden"); // Esconde campos adicionais
+    }
+}
