@@ -7648,6 +7648,8 @@ textarea.form-control-lg {
 
 .mb-0 {
   margin-bottom: 0 !important;
+  color: black;
+  font-weight: bolder;
 }
 
 .mb-1 {
@@ -11112,7 +11114,7 @@ footer.footer .social-link:hover {
 .Sobre{
   padding-top: 5rem;
   padding-bottom: 5rem;
-  background-color: #e4f2f7;
+  background-color: #c1c1c3;
 }
 
 .Sobre h2{
@@ -11125,7 +11127,7 @@ footer.footer .social-link:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 100px;
+  padding: 10%;
 }
 
 .Sos h1{
@@ -11149,4 +11151,14 @@ footer.footer .social-link:hover {
 .iconessomos img{
   width: 60%;
   margin-bottom: 4%;
+}
+
+.Isacatamiga{
+  color: black;
+  font-size: 200%;
+}
+
+.CarolTPM{
+  font-size: 150%;
+  margin-top: 3%;
 }
