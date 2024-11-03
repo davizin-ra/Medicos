@@ -11167,3 +11167,38 @@ footer.footer .social-link:hover {
   padding-top: 3%;
   padding-bottom: 3%;
 }
+
+.containerap{
+  display: flex;
+  align-items: center;
+  padding: 50px;
+}
+
+.cardap{
+  padding-top: 70px;
+  font-size: 200%;
+  text-align: center;
+  border-radius: 20px;
+  margin-left: 10px;
+  height: 200px;
+  background-color: #0dcaf0;
+  flex: 1;
+  transition: .3s all ease;
+}
+
+.cardap:hover{
+  flex: 2;
+  background-color: #166077;
+}
+
+.ap h1{
+  font-size: 600%;
+  text-align: center;
+  padding-bottom: 1%;
+}
+
+.ap h3{
+  font-size: 200%;
+  margin-bottom: 3%;
+  text-align: center;
+}
