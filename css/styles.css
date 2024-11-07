@@ -11323,3 +11323,102 @@ body {
 .table tbody tr:nth-child(odd) {
     background-color: var(--bs-light);
 }
+
+/* Estilo para o container geral */
+.container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+/* Título */
+h1 {
+  text-align: center;
+  color: #333;
+  font-size: 2em;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+/* Estilos da tabela */
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.table thead {
+  background-color: #1D809F;
+  color: #ffffff;
+}
+
+.table th, .table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #e0e0e0;
+  font-size: 16px;
+}
+
+.table tbody tr:nth-child(odd) {
+  background-color: #f8fafb;
+}
+
+.table tbody tr:hover {
+  background-color: #f1f7fb;
+}
+
+.table td:last-child {
+  text-align: center;
+}
+
+/* Botões de ação */
+.btn {
+  padding: 6px 12px;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+  color: #ffffff;
+}
+
+.btn-success {
+  background-color: #28a745;
+  margin-right: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-success:hover {
+  background-color: #218838;
+}
+
+.btn-warning {
+  background-color: #fd7e14;
+  transition: background-color 0.3s ease;
+}
+
+.btn-warning:hover {
+  background-color: #e86509;
+}
+
+/* Estilo do status */
+td#status-1, td#status-2 {
+  font-weight: bold;
+  padding: 6px 12px;
+  border-radius: 4px;
+  text-align: center;
+}
+
+td#status-1:contains("Aceito"),
+td#status-2:contains("Aceito") {
+  background-color: #e2f7e9;
+  color: #198754;
+}
+
+td#status-1:contains("Pendente"),
+td#status-2:contains("Pendente") {
+  background-color: #fff3cd;
+  color: #856404;
+}
